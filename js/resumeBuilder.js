@@ -1,4 +1,3 @@
-
 var bio = {
 	"name" : "Kenneth Donahue",
 	"role" : "Web Developer",
@@ -170,10 +169,6 @@ education.display = function() {
 		$(".education-entry:last").append(formattedUrl)
 	}
 }
-
-
-
-
 
 projects.display = function() {
 	for (project in projects.projects) {
